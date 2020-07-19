@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_twolip.mk
+    $(LOCAL_DIR)/bliss_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_twolip-user \
-    lineage_twolip-userdebug \
-    lineage_twolip-eng
+    bliss_tulip-user \
+    bliss_tulip-userdebug \
+    bliss_tulip-eng
