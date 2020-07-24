@@ -21,6 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common Bliss stuff
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+BLISS_DEVELOPER=MrPurple
+BLISS_BUILDTYPE=OFFICIAL
 
 # Inherit from twolip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
